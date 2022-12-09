@@ -1,11 +1,17 @@
-<script setup>
-import { ref } from 'vue'
+<script>
+export default {
+  data(){
+    return{
+      
+    }
+  },
+  mounted(){
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
+  },
+  methods(){
+    
+  }
+}
 </script>
 
 <template>
